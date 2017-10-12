@@ -1,0 +1,120 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+/* line 23, ../scss/base.scss */
+body {
+  color: #212121;
+  background-color: #eeeeee;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 29, ../scss/base.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 37, ../scss/base.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 43, ../scss/base.scss */
+body {
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #212121;
+  background-color: #eeeeee;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+@media only screen and (max-width: 768px) {
+  /* line 43, ../scss/base.scss */
+  body {
+    font-size: 95%;
+  }
+}
+
+/* line 56, ../scss/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 60, ../scss/base.scss */
+h1 {
+  font-size: 28px;
+}
+
+/* line 63, ../scss/base.scss */
+h2 {
+  font-size: 24px;
+}
+
+/* line 66, ../scss/base.scss */
+h3 {
+  font-size: 18px;
+}
+
+/* line 69, ../scss/base.scss */
+h4 {
+  font-size: 16px;
+}
+
+/* line 72, ../scss/base.scss */
+h5 {
+  font-size: 14px;
+}
+
+/* line 75, ../scss/base.scss */
+h6 {
+  font-size: 12px;
+}
+
+/* line 79, ../scss/base.scss */
+a, a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 83, ../scss/base.scss */
+a {
+  color: #2196F3;
+}
+/* line 86, ../scss/base.scss */
+a:hover {
+  color: #1976D2;
+}
+
+/* line 91, ../scss/base.scss */
+blockquote {
+  padding: 10px;
+  margin: 0;
+  border-left: 3px solid #2196F3;
+  background: #E3E3E3;
+}
+
+/* line 97, ../scss/base.scss */
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* line 104, ../scss/base.scss */
+video, img, object, embed, iframe {
+  max-width: 100%;
+}
+
+/* line 107, ../scss/base.scss */
+iframe {
+  border: 0;
+}

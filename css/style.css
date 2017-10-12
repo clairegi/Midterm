@@ -1,0 +1,145 @@
+/* CSS Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #ffffff;
+	background-color: #eeeeee;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+nav {
+	cursor: pointer;
+	margin: 25px;
+	text-align: center;
+}
+nav a {
+	padding: 15px;
+}
+a {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+a:hover {
+	color: #eeeeee;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	outline: none;
+}
+video, img, object, embed, iframe {
+	max-width: 100%;
+}
+iframe {
+	border: 0;
+}
+ul {
+	padding: 20px;
+}
+
+.section-container {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 10%;
+	text-align: center;
+}
+.click-here {
+	text-align: center;
+	padding-top: 20%;
+}
+
+#bg-home {
+  	background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../images/bg-home.jpg) no-repeat center center;
+	background-size: cover;
+}
+#bg-home h1 {
+	text-transform: uppercase;
+	color: #ffcccc;
+	padding-top: 18%;
+	text-align: center;
+}
+
+#bg-setting {
+  	background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../images/bg-setting.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#bg-plot {
+  	background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../images/bg-plot.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#bg-character {
+  	background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../images/bg-character.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#bg-app {
+	color: #333;
+	background-color: #ffffff;
+	text-align: center;
+	margin: 10px auto;
+}
+#bg-app a {
+	color: #000000;
+}
+#bg-app a:hover {
+	color: #333333;
+}
+
+.app-box {
+	margin: 0 auto;
+	width: 300px;
+	left: 50%;
+}
+.app-image img {
+	max-height: 400px;
+}
+@media only screen and (min-width: 1024px) {
+	.app-image img {
+		max-height: 600px;
+	}	
+}
+
+.app-view {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.image-list {
+	width: 100%;
+	border: 1px solid green;
+	vertical-align: top;
+	margin: 10px auto;
+	padding: 0;
+	display: inline-block;
+}
+@media only screen and (min-width: 481px) {
+	.image-list4 {
+		margin: 1%;
+		width: 20%;
+	}
+}
